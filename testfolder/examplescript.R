@@ -19,5 +19,3 @@ mydata <- tibble(a = c(1:10, rnorm(10)), b = c(rep("a", 10), rep("b", 10)))
 mydata %>%
   group_by("b") %>% # group by a variable, to calculate the CV per group
   get_cv(variable = a)
-
-# end script ----
