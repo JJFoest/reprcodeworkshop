@@ -12,7 +12,7 @@ get_cv <- function(data, variable) {
 # test DO NOT RUN ----
 
 # make some data
-set.seed(111)
+set.seed(1111)
 mydata <- tibble(a = c(1:10, rnorm(10)), b = c(rep("a", 10), rep("b", 10)))
 
 # example
